@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 4</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<style>
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+    }
+    @keyframes blink {
+        50% { border-color: transparent; }
+    }
+    .typing-container {
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 2px solid white;
+        animation: typing 3s steps(30, end) forwards, blink 0.75s step-end infinite;
+    }
+</style>
+</head>
+<body class="bg-gray-100">
+<nav class="bg-blue-600 text-white p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+        <a href="#" class="text-2xl font-bold">Ade Fitria</a>
+        <ul class="hidden md:flex space-x-6">
+            <li><a href="#Profil" class="hover:underline">Profil</a></li>
+            <li><a href="#Pendidikan" class="hover:underline">Pendidikan</a></li>
+            <li><a href="#Dokumentasi" class="hover:underline">Dokumentasi</a></li>
+            <li><a href="#Kontak" class="hover:underline">Kontak</a></li>
+        </ul>
+        <button class="md:hidden text-white text-2xl">&#9776;</button>
+    </div>
+</nav>
+
+<header class="text-white py-20 text-center relative bg-cover bg-center shadow-lg m-5 px-5" style="background-image: url(img/bgg.jpg);">
+    <div class="container mx-auto bg-opacity-100 p-10 rounded-lg">
+        <h1 class="text-5xl font-bold mb-4">
+            <span class="typing-container">Ade Fitria Nurdin Rizky</span>
+        </h1>
+    </div>
+</header>
+
+<div 
+    id="Profil" class="container mx-auto p-6 bg-blue-400 shadow-md rounded-lg mt-6 pt-20 flex items-center space-x-6">
+    <img src="img/ade.jpg" alt="Thumbnail Artikel" class="w-48 h-48 rounded-lg shadow ">
+    <div>
+        <h3 class="text-2xl font-semibold mb-2">Profil</h3>
+        <p class="text-left">
+            Halo! Perkenalkan, namaku Ade Fitria Nurdin Rizky. Saat ini, aku sedang menempuh pendidikan di Universitas Mulawarman, tepatnya di Fakultas Keguruan dan Ilmu Pendidikan, Program Studi Pendidikan Komputer. 
+        </p>
+    </div>
+</div>
+
+<div id="Pendidikan" class="container mx-auto p-6 text-white bg-blue-900 shadow-md rounded-lg mt-6 pt-20">
+    <h3 class="text-2xl font-semibold mb-4 text-center">Pendidikan</h3>
+  
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="text-center">
+        <img src="img/sd.png" alt="SDN 018 Sepaku" class="w-full object-cover rounded-lg shadow"/>
+        <div class="border-t-2 border-blue-400 mt-2 pt-2">
+          <p class="text-sm text-white font-bold">SDN 018 Sepaku</p>
+        </div>
+      </div>
+  
+      <div class="text-center">
+        <img src="img/SMP.jpeg" alt="MTsN 3 PPU" class="w-full object-cover rounded-lg shadow"/>
+        <div class="border-t-2 border-blue-400 mt-2 pt-2">
+          <p class="text-sm text-white font-bold">MTsN 3 PPU</p>
+        </div>
+      </div>
+  
+      <div class="text-center">
+        <img src="img/smk.png" alt="SMK NU Balikpapan" class="w-full object-cover rounded-lg shadow"/>
+        <div class="border-t-2 border-blue-400 mt-2 pt-2">
+          <p class="text-sm text-white font-bold">SMK NU Balikpapan</p>
+        </div>
+      </div>
+ 
+      <div class="text-center">
+        <img src="img/univ.png" alt="Universitas Mulawarman" class="w-full  object-cover rounded-lg shadow"/>
+        <div class="border-t-2 border-blue-400 mt-2 pt-2">
+          <p class="text-sm text-white font-bold">Universitas Mulawarman</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="Dokumentasi" class="container mx-auto p-6 text-white bg-blue-600 shadow-md rounded-lg mt-6 pt-20">
+    <h3 class="text-2xl font-semibold mb-4 text-center">Dokumentasi</h3>
+
+    <div class="container mx-auto grid grid-cols-2 gap-4 mt-10 p-6 bg-blue-300 rounded-lg shadow-md">
+        <img src="img/dua.jpg" alt="Acara Pendidik" class="w-full h-100 object-cover rounded-lg">
+        <img src="img/tiga.jpg" alt="Acara Pendidik" class="w-full h-100 object-cover rounded-lg">
+        <img src="img/lima.jpg" alt="Acara Pendidik" class="w-full h-100 object-cover rounded-lg">
+        <img src="img/empat.jpg" alt="Acara Pendidik" class="w-full h-100 object-cover rounded-lg">
+        <div class="bg-white p-2 rounded-lg shadow-lg overflow-hidden">
+            <img src="img/dispora.jpg" class="w-full h-120 object-cover rounded-lg border-2 border-gray-300"/>
+            <p class="text-center font-semibold mt-2 text-gray-800">Pelatihan Dispora</p>
+        </div>
+        <div class="bg-white p-2 rounded-lg shadow-lg overflow-hidden">
+            <img src="img/dispora1.jpg" alt="" class="w-full h-120 object-cover rounded-lg shadow"/>
+            <p class="text-center font-semibold mt-2 text-gray-800"> Pembukaan pelatihan</p>
+            </div>
+        <div>
+            <div class="bg-white p-2 rounded-lg shadow-lg overflow-hidden">
+            <img src="img/fisika.jpg" class="w-full h-60 object-cover rounded-lg border-4 border-gray-300"/>
+            <p class="text-center font-semibold mt-2 text-gray-900">Praktikum Fisika</p>
+            <div class="bg-white p-2 rounded-lg shadow-lg overflow-hidden">
+            <img src="img/bio.jpg" class="w-full h-60 object-cover rounded-lg border-4 border-gray-300"/>
+            <p class="text-center font-semibold mt-2 text-gray-900">Praktikum Biologi</p>
+            </div>
+        </div>
+    </div>
+        <div>
+            <div class="bg-white p-2 rounded-lg shadow-lg overflow-hidden">
+            <img src="img/mubes.jpg" class="w-full h-full object-cover rounded-lg border-4 border-gray-300"/>
+            <p class="text-center font-semibold mt-2 text-gray-900">Panita mubes</p>
+            </div>
+        </div>
+        <div>
+            <div class="bg-white p-2 rounded-lg shadow-lg overflow-hidden">
+            <img src="img/bareng christy.jpg" class="w-full h-full object-cover rounded-lg border-4 border-gray-300"/>
+            <p class="text-center font-semibold mt-2 text-gray-900">Bareng christy</p>
+            </div>
+        </div>
+        <div>
+            <div class="bg-white p-2 rounded-lg shadow-lg overflow-hidden">
+            <img src="img/harddisk 2023.jpg" class="w-full h-80 object-cover rounded-lg border-4 border-gray-300"/>
+            <p class="text-center font-semibold mt-2 text-gray-900">Harddisk 2023</p>
+            <div class="bg-white p-2 rounded-lg shadow-lg overflow-hidden">
+            <img src="img/harddisk 2024.jpg" class="w-full h-80 object-cover rounded-lg border-4 border-gray-300"/>
+            <p class="text-center font-semibold mt-2 text-gray-900">harddisk</p>
+            <div class="bg-white p-2 rounded-lg shadow-lg overflow-hidden">
+            <img src="img/Acara .jpg" class="w-full h-130 object-cover rounded-lg border-4 border-gray-300"/>
+            <p class="text-center font-semibold mt-2 text-gray-900">Panitia Acara Mikrotik 2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+    <div id="Kontak" class="bg-gray-100 py-10 px-6 rounded-lg shadow-md pt-20">
+        <h2 class="text-2xl font-semibold text-center mb-6">Kontak</h2>
+  
+        <div class="flex flex-col items-center space-y-4">
+          <div class="flex items-center space-x-3">
+            <img src="img/wa.jpg" alt="WhatsApp" class="w-6 h-6" />
+            <p class="text-lg font-medium">0857-5340-0795</p>
+          </div>
+  
+          <div class="flex items-center space-x-3">
+            <img src="img/email.jpeg" alt="Email" class="w-6 h-6" />
+            <p class="text-lg font-medium">adefitrianurdin@gmail.com</p>
+          </div>
+  
+          <div class="flex items-center space-x-3">
+            <img src="img/ig.jpeg" alt="Instagram" class="w-6 h-6" />
+            <a
+              href="https://www.instagram.com/adfitria_nrr/"
+              target="_blank"
+              class="text-lg font-medium text-blue-600 hover:underline"
+              >@adfitria_nrr</a
+            >
+          </div>
+    </div>
+    
+</body>
+</html>

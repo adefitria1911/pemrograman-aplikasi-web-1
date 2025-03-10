@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Quicksand:wght@300..700&display=swap');
+
+body {
+    font-family:"Quiksand";
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    background-image: url(img/backgr.jpg);
+    padding: 60px;
+    text-align: center;
+    color: rgb(255, 145, 0);
+    font-size: 25px;
+    text-shadow: 0px 0px 10px;
+}
+
+nav {
+    background-color: rgb(207, 141, 70) ;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li {
+     display: inline;
+     margin: 6px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(239, 220, 171);
+    transition: padding 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color:rgb(48, 27, 4) ;
+    padding: 0.30em;
+    border-radius: 6px;
+}
+
+.box-orange {
+    background-color: rgb(253, 139, 81);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: double;
+}
+
+.box-orange p {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+} 
+
+.box-blue {
+    background-color: rgb(64, 93, 114);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: groove;
+    box-shadow: 5px 5px 2px 1px rgb(129, 178, 241);
+}
+
+.box-blue h1{
+    text-align: center;
+}
+
+.box-blue h3 {
+    color: rgb(225, 244, 245)
+}
+.box-blue p {
+    color: rgb(225, 244, 245);
+}
+
+.box-brown h1 {
+    background-color: rgb(48, 27, 4);
+    margin: 15px;
+    padding: 15px;
+    color: rgb(194, 180, 166);
+    text-align: center;
+    border-style: dotted;
+    border-radius: 10px;
+}
+
+
+.box-green {
+    background-color: rgb(62, 123, 39);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: dotted;
+}
+
+.box-green p {
+    color: rgb(236, 220, 191);
+    text-align: justify;
+}
+
+.box-green ul li {
+    background-color: rgb(23, 92, 5);
+    color: rgb(236, 220, 191);
+    border-radius: 10px;
+}
+
+.box-red {
+    background-color: rgb(163, 29, 29);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: dotted;
+}
+
+.box-red p {
+    color: rgb(236, 220, 191) ;
+    text-align: justify;
+}
+
+.box-red ul li {
+    background-color: rgb(71, 2, 2);
+    color: rgb(236, 220, 191);
+    border-radius: 10px;
+}
+
+.box-yellow {
+    background-color: rgb(255, 178, 0);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: dotted;
+}
+
+.box-yellow p {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+
+.box-yellow ul li {
+    background-color: rgb(241, 134, 63);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+
+.box-box{
+    background-color: rgb(56, 38, 63);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.box-box h1 {
+    text-shadow: 0px 0px 10px;
+    text-align: center;
+}
+
+.box-purple {
+    background-color: rgb(207, 166, 241);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.box-purple p {
+    background-color: rgb(56, 38, 63);
+    color: rgb(239, 226, 243);
+    text-align: justify;
+    border-radius: 10px;
+}
+
+.box-vintage {
+    background-color: rgb(218, 131, 89);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.box-vintage marquee {
+    color: rgb(51, 18, 1);
+    text-align: justify;
+    border-radius: 10px;
+}
